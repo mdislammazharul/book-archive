@@ -9,7 +9,7 @@ const searchBook = () => {
     searchField.value = '';
 
     // Handle empty search request
-    if (searchText == '') {
+    if (searchText === '') {
         // please write something to display
         displayError();
     }
